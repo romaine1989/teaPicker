@@ -3,10 +3,34 @@
 <head>
 	<title>Prophecy Tea Picker</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/javascript.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
+	<h1 class="centre">who&rsquo;s making tea?</h1>
+	
+	<div class="inner">
+		<div id="candidates" class="centre">
+			<p id="introText">
+				Add, edit or remove someone. Or, happy with the list? ...Then go ahead and <a href="#teaMaker">pick the lucky so and so</a>?
+			</p>
+			<input type="text" name="" id="namesInput">
+			<button class="inputButton" onclick="addName()">Add</button>
+			<button class="inputButton" onclick="editName()">Edit</button>
+			<button class="inputButton" onclick="delName()">Delete</button>
 
+			<ul id="namesList" class="centre">
+			</ul>
+		</div>
+
+		<div id="teaMaker">
+			<button id="randomBtn" onclick="teapicker ()">reveal tea maker</button>
+			<p id="winner"></p>
+			<p id="note">&ast;Refresh page to reset list</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/javascript.js"></script>
 
 </body>
 </html>

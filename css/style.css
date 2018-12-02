@@ -1,0 +1,111 @@
+/********** GLOBAL ISH ************/
+.inner {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.centre {
+	text-align: center;
+}
+
+
+/************** HEADINGS *****************/
+h1, h2 {
+	font-family: 'Fjall One', sans-serif;
+}
+
+h1 {
+	font-size: 80px;
+	text-transform: capitalize;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+/************** INTRO SECTION ****************/
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(84, 78, 128, 1);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#introText {
+	line-height: 1.3;
+	margin-bottom: 40px;
+}
+
+p, ul li, .inputButton {
+	font-family: 'Nonto Sans', sans-serif;
+}
+
+input {
+	border-radius: 6px;
+	height: 34px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 30%;
+	font-size: 16px;
+	padding: 0 10px;
+}
+
+
+/***************** BUTTONS ******************/
+#teaMaker {
+	text-align: center;
+}
+
+.inputButton {
+	height: 35px;
+	border-radius: 6px;
+	border: none;
+	width: 70px;
+}
+
+#randomBtn {
+	background-color: rgba(84, 78, 128, 1);
+	height: 80px;
+	border-radius: 6px;
+	border: none;
+	width: 300px;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: white;
+	text-shadow: 2px 2px 5px #0000009c;
+}
+
+#randomBtn:hover {
+	background-color: rgba(84, 78, 128, 1);
+	background-color: rgba(84, 78, 128, 0.8);
+}
+
+
+/*********** NAMES **************/
+
+ul {
+	padding: 0;
+	margin: 50px 0;
+}
+
+ul li {
+	list-style: none;
+	text-transform: capitalize;
+	/*margin-bottom: 5px;*/
+	line-height: 1.6;
+	cursor: pointer;
+}
+
+#winner {
+	margin-top: 50px;
+    margin: 70px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+/*************** NB *********************/
+#note {
+	font-size: 14px;
+}

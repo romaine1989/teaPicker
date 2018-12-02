@@ -1,4 +1,8 @@
 /********** GLOBAL ISH ************/
+body {
+	padding: 3% 0 5% 0;
+}
+
 .inner {
 	width: 60%;
 	margin: 0 auto;
